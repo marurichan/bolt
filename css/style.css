@@ -1,0 +1,235 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 15px;
+  align-items: center;
+}
+.header {
+  position: fixed;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.button {
+  font-size: 12px;
+  padding: 14px 12px;
+  background: #74cfae;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  color: #333;
+}
+
+.home-content {
+  text-align: center; 
+  padding: 250px;
+  font-size: 90px;
+  color: #74cfae;
+  font-weight: 700;
+}
+
+.home-content p {
+  text-align: center;
+  font-size: 30px;
+  color: #c0c0c0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.page-title {
+  margin: 20px;
+}
+
+.iphone__inline {
+  padding-top: 50px;
+  background: #74cfae;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.iphone .inner__content {
+  width: 600px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.iphone .inner__content {
+  vertical-align: middle;
+}
+
+.iphone .inner__content .text {
+  vertical-align: middle;
+}
+
+.what-content {  
+  text-align: center;
+  vertical-align: middle;
+  font-size:24px;
+  color: #fff;
+  margin-bottom: 35px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.iphone p {
+  text-align: center;
+  font-size: 20px;
+  background: #74cfae;
+  color: #fff;
+}
+
+.work__content {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 40px; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.pict li {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 60px;
+
+  /* justify-content: space-between; */
+}
+
+.pict li:nth-child(n+3) {
+  margin-bottom: 0;
+  margin-top:80px;
+}
+
+.pict {
+  font-size: 0;
+  margin: 40px 0 100px;
+}
+
+.pict img {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.pict img:hover {
+  opacity: 1;
+}
+
+.pict li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+/* .pict li:nth-child(4) {
+  margin-left: 0;
+} */
+
+.work__box {
+  text-align: center;
+  padding: 60px 70px;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both ;
+}
+
+.our__latest__work {
+  float: left;
+  box-sizing: border-box;
+}
+
+.our__latest__work p {
+  width:730px;
+}
+
+.our__latest__work .text__button .mail {
+  margin-left: 90px;
+}
+
+.me__button {
+  float: left;
+  font-size: 12px;
+  padding: 14px 20px;
+  background: #74cfae;
+  color: #fff;
+  margin-left: 90px;
+  transition: all 0.3s ease;
+}
+
+.me__button:hover {
+  color: #333;
+}
+
+.skills__box {
+  background-color: #4e4e4e;
+  padding :70px 100px;
+}
+
+.skills__content {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.load-container p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.circle .load-container {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 180px;
+}
+
+.circle .load-container:first-child {
+  margin-left: 0;
+}
+
+
+.sns {
+ padding: 200px 200px;
+ background-color: #f2f2f2;
+}
+
+
+.fab {
+  color: #74cfae;
+}
+
+.fas {
+  color: #74cfae;
+}
+
+.crafted {
+  padding: 20px 25px;
+  text-align: right;
+  background-color: #74cfae;
+}
+
+.crafted p {
+  color: #fff;
+}
+
+.sns__inner li {
+  box-sizing: border-box;
+  width: 185px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sns__inner {
+  width: 740px;
+  margin: 0 auto; 
+  display: flex; 
+}
+
+.sns__content:hover {
+  background-color: #fff;
+}
+
+.sns__content {
+  transition: all 0.3s ease;
+}
