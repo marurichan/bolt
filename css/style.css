@@ -40,7 +40,7 @@ body {
 
 .home-content {
   text-align: center; 
-  padding: 250px 0;
+  padding: 344px 0 250px;
   font-size: 90px;
   color: #74cfae;
   font-weight: 700;
@@ -62,19 +62,20 @@ body {
   background: #74cfae;
   text-align: center;
   margin: 0 auto;
+  font-size: 0;
 }
 
 .iphone__inline .inner__content {
-  width: 600px;
+  width: 400px;
   display: inline-block;
   box-sizing: border-box;
-}
-
-.iphone__inline .inner__content {
   vertical-align: middle;
 }
 
-.iphone__inline .inner__content .text {
+.inner__text {
+  width: 650px;
+  display: inline-block;
+  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -103,13 +104,17 @@ body {
 .pict li{
   display: inline-block;
   box-sizing: border-box;
-  margin-left: 60px;
+  margin-left: 100px;
 
   /* justify-content: space-between; */
 }
 
 .pict li:nth-child(n+4) {
   margin-top:80px;
+}
+
+.pict li:nth-child(3n+1) {
+  margin-left: 0;
 }
 
 .pict {
@@ -126,9 +131,6 @@ body {
   opacity: 1;
 }
 
-.pict .pict-content:nth-child(3n+1) {
-  margin-left: 0;
-}
 
 /* .pict li:nth-child(4) {
   margin-left: 0;
@@ -136,7 +138,7 @@ body {
 
 .work__box {
   text-align: center;
-  padding: 60px 0
+  padding: 60px 0 70px;
 }
 
 .clearfix::after {
@@ -148,14 +150,16 @@ body {
 .our__latest__work{
   display: inline-block;
   box-sizing: border-box;
+  margin-left: 90px;
+  vertical-align: text-top
 }
 
 /* .our__latest__work p {
   width:730px;
 } */
 
-.our__latest__work .text__button .mail {
-  margin-left: 90px;
+.our__latest__work:first-child {
+  margin-left: 0;
 }
 
 .our__latest__work p {
@@ -164,6 +168,7 @@ body {
 
 .mail {
   width: 350px;
+  color: #74cfae;
 }
 
 .me__button {
@@ -172,12 +177,11 @@ body {
   padding: 14px 20px;
   background: #74cfae;
   color: #fff;
-  margin-left: 90px;
   transition: all 0.3s ease;
   text-decoration: none;
 }
 
-.me__button:hover {
+a .me__button:hover {
   color: #333;
 }
 
@@ -188,7 +192,7 @@ body {
 
 .skills__content {
   text-align: center;
-  margin: 40px 0;
+  margin-bottom: 40px;
   font-size: 24px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -201,16 +205,18 @@ body {
 }
 
  .load {
-   margin-bottom: 10px;
- }
+  margin-bottom: 10px;
+}
 
 .circle .load-container {
   display: inline-block;
   box-sizing: border-box;
   margin-left: 180px;
-  justify-content: center;
 }
 
+.circle {
+  text-align: center;
+}
 
 .load-container:first-child {
   margin-left: 0;
@@ -222,11 +228,6 @@ body {
 }
 
 .sns-icon {
-  color: #74cfae;
-  margin: 15px 0;
-}
-
-.mail {
   color: #74cfae;
   margin: 15px 0;
 }
